@@ -7,7 +7,9 @@ Link to dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 Link to licence: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
-To conduct the analysis, PostgreSQL was used to find relevant business insights pertaining to the data. Generative AI was used to assist in writing the queries.
+To conduct the analysis, PostgreSQL was used to find relevant business insights pertaining to the data. 
+
+NOTE: Generative AI was used to assist in writing SQL queries and brainstorm business questions.
 
 
 # SQL Queries and Findings for Data
