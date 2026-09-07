@@ -12,7 +12,7 @@ To conduct the analysis, PostgreSQL was used to find relevant business insights 
 NOTE: Generative AI was used to assist in writing SQL queries and brainstorm business questions.
 
 
-# SQL Queries and Findings for Data
+# SQL Queries and Findings from Data
 Below are 7 business insights found during the analysis, as well as the SQL queries used to find them:
 
 
