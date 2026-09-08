@@ -104,6 +104,8 @@ COUNT(*) FILTER (WHERE total_spent > (SELECT AVG(total_spent) FROM customer_spen
 FROM customer_spend;
 ```
 Findings:
+About 29% of customers spend above average for the platform, with the average being $166.6; and the above average at $366.57. 
+
 
 ---
 
@@ -131,7 +133,10 @@ prev_month_revenue,
 ROUND(100.0*(revenue- prev_month_revenue) / prev_month_revenue, 2) AS pct_growth
 FROM with_previous
 ORDER BY order_month;
+
 ```
+Finding:
+From September-December 2016, there is a massive fluctuation in the monthly revenue, likely die to near zero order volume during the platform's launch, where small changes produce large percentages. From 2017 onward the month-to-month revenue is steadier, then a ~50% spike in November 2017, followed by a ~26% drop in December as revenue came back to the mean. Through 2018, revenue growth steadied before a data cutoff occurs in November.
 
 
 
