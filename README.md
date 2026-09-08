@@ -100,7 +100,7 @@ GROUP BY customers.customer_unique_id
 )
 SELECT COUNT(*) AS total_customers,
 ROUND(AVG(total_spent), 2) AS overall_avg_spend,
-COUNT(*) FILTER (WHERE total_spent > (SELECT AVG(total_spent) FROM customer_spend)) AS above _average_customers
+COUNT(*) FILTER (WHERE total_spent > (SELECT AVG(total_spent) FROM customer_spend)) AS above_average_customers
 FROM customer_spend;
 ```
 Findings:
